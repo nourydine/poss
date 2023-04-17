@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/txjw4600/public_html  # Add /<app_folder> if required
+        - /bin/cp -R * $DEPLOYPATH
